@@ -2,21 +2,20 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.mycompany.biblioteca;
+package com.mycompany.biblioteca.Biblioteca;
 
 /**
  *
  * @author EquipoDell
  */
-public class Libro {
-    private String titulo;
-    private String autor;
-    private boolean prestado;
+
+    class Libro {
+    private final String titulo;
+    private final String autor;
 
     public Libro(String titulo, String autor) {
         this.titulo = titulo;
         this.autor = autor;
-        this.prestado = false;
     }
 
     public String getTitulo() {
@@ -26,16 +25,5 @@ public class Libro {
     public String getAutor() {
         return autor;
     }
-
-    public boolean isPrestado() {
-        return prestado;
-    }
-
-    public void prestar() {
-        this.prestado = true;
-    }
-
-    public void devolver() {
-        this.prestado = false;
-    }
 }
+
