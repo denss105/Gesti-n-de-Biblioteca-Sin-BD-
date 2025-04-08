@@ -6,7 +6,7 @@ package com.mycompany.biblioteca.Biblioteca;
 
 /**
  *
- * @author EquipoDell
+ * @author Denisse Joya
  */
 
     class Libro {
