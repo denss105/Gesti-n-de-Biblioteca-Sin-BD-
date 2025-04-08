@@ -8,7 +8,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author EquipoDell
+ * @author Denisse Joya
  */
     class Biblioteca {
     private final ArrayList<Libro> libros;
